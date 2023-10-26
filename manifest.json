@@ -1,0 +1,15 @@
+{
+    "name": "Unknown AddBlocker",
+    "version": "1.0",
+    "description": "The Anand Adblocker",
+    "permissions": ["webRequest", "activeTab","webRequestBlocking","storage","webNavigation"],
+    "action": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    },
+    "manifest_version": 3
+}
